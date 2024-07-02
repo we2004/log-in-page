@@ -1,0 +1,185 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #F4F3EE;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    border: 3px solid #463F3A;
+    padding: 20px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.form-side {
+    flex: 1;
+
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #8A817C;
+}
+
+.second-para {
+    color: #BCB8B1;
+    font-size: 15px;
+}
+
+.second-para a,
+.agree-label a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: #E0AFA0;
+    transition: all 0.5s;
+}
+
+.second-para a:hover,
+.agree-label a:hover {
+    color: #be9487;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: #463F3A;
+}
+
+.google-button,
+.facebook-button {
+    background-color: transparent;
+    border: 2px solid #463F3A;
+    border-radius: 5px;
+
+    color: #463F3A;
+    font-size: 13px;
+    text-transform: capitalize;
+
+
+    padding: 7px 14px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+
+}
+
+.google-button:hover,
+.facebook-button:hover {
+    background-color: #463F3A;
+    color: #F4F3EE;
+    transition: all 0.5s;
+
+}
+
+hr {
+    width: 80%;
+    /* Adjust this value as needed */
+    margin: 0 auto;
+    border: 0.5px solid #BCB8B1;
+    margin-bottom: 30px;
+
+}
+
+.input-div {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input-div label {
+    text-transform: capitalize;
+    color: #8A817C;
+    margin-bottom: 4px;
+
+    font-size: 15px;
+}
+
+.input-div input {
+    width: 97%;
+    background: transparent;
+    border: 2px solid #463F3A;
+    border-radius: 3px;
+    padding: 12px 10px;
+
+    font-size: 16px;
+    text-transform: capitalize;
+
+    transition: all 0.15s;
+}
+
+.input-div input:hover {
+    box-shadow: inset 5px 5px 6px #463F3A26;
+}
+
+.email {
+    margin-bottom: 15px;
+}
+
+.agree-label {
+    font-size: 15px;
+    color: #BCB8B1;
+
+}
+
+.agree {
+    display: flex;
+    align-items: center;
+
+    gap: 6px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit input {
+    width: 97%;
+
+    border: 2px solid #463F3A;
+    background-color: #463F3A;
+
+    padding: 12px 10px;
+    color: #F4F3EE;
+    text-transform: capitalize;
+    font-weight: bold;
+
+    border-radius: 3px;
+
+    transition: all 0.5s;
+
+}
+
+.submit input:hover {
+    background-color: #F4F3EE;
+    color: #453F3A;
+
+
+}
+
+@media(max-width: 529px) {
+    .main {
+        border: none;
+    }
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Log in</title>
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!--icons-->
+  <!--boxicons link-->
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+  <!--remixicons link-->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+
+  <!--styles-->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="form-side">
+      <div class="title-div">
+        <p class="title">get started!</p>
+        <p class="second-para">Already have an account?<a href="#"> Log in</a></p>
+        <div class="buttons">
+          <a href="#">
+            <button class="google-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="20">
+                <path
+                  d="M3.06364 7.50914C4.70909 4.24092 8.09084 2 12 2C14.6954 2 16.959 2.99095 18.6909 4.60455L15.8227 7.47274C14.7864 6.48185 13.4681 5.97727 12 5.97727C9.39542 5.97727 7.19084 7.73637 6.40455 10.1C6.2045 10.7 6.09086 11.3409 6.09086 12C6.09086 12.6591 6.2045 13.3 6.40455 13.9C7.19084 16.2636 9.39542 18.0227 12 18.0227C13.3454 18.0227 14.4909 17.6682 15.3864 17.0682C16.4454 16.3591 17.15 15.3 17.3818 14.05H12V10.1818H21.4181C21.5364 10.8363 21.6 11.5182 21.6 12.2273C21.6 15.2727 20.5091 17.8363 18.6181 19.5773C16.9636 21.1046 14.7 22 12 22C8.09084 22 4.70909 19.7591 3.06364 16.4909C2.38638 15.1409 2 13.6136 2 12C2 10.3864 2.38638 8.85911 3.06364 7.50914Z">
+                </path>
+              </svg>
+              sign up with google
+            </button>
+          </a>
+          <a href="#">
+            <button class="facebook-button">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="22">
+                <path
+                  d="M14 13.5H16.5L17.5 9.5H14V7.5C14 6.47062 14 5.5 16 5.5H17.5V2.1401C17.1743 2.09685 15.943 2 14.6429 2C11.9284 2 10 3.65686 10 6.69971V9.5H7V13.5H10V22H14V13.5Z">
+                </path>
+              </svg>
+              sign up with Facebook
+            </button>
+          </a>
+        </div>
+      </div>
+      <hr>
+      <div class="the-form">
+        <form action="wesal.php" method="post">
+          <div class="input-div email">
+            <label for="email">Email address</label>
+            <input type="email" placeholder="psps@active.com" id="email" name="email" required>
+          </div>
+
+          <div class="input-div password">
+            <label for="password">Password</label>
+            <input type="password" placeholder="Aa123456@" minlength="8" maxlength="10"
+              pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?=.*\W).{8,}" id="password" name="password" required>
+          </div>
+
+          <div class="agree">
+            <input type="checkbox" id="agree" name="agree" required>
+            <label for="agree" class="agree-label">I agree to the <a href="#">terms of service</a> and <a
+                href="#">privacy
+                policy</a></label>
+          </div>
+
+          <div class="submit">
+            <input type="submit" value="register">
+          </div>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
