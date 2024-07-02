@@ -72,6 +72,7 @@ body {
     background-color: transparent;
     border: 2px solid #463F3A;
     border-radius: 5px;
+    width: 100%;
 
     color: #463F3A;
     font-size: 13px;
@@ -119,7 +120,7 @@ hr {
 }
 
 .input-div input {
-    width: 97%;
+    /* width: 97%; */
     background: transparent;
     border: 2px solid #463F3A;
     border-radius: 3px;
@@ -131,8 +132,9 @@ hr {
     transition: all 0.15s;
 }
 
-.input-div input:hover {
-    box-shadow: inset 5px 5px 6px #463F3A26;
+.input-div input:active {
+    border: 3px solid #463F3A;
+
 }
 
 .email {
@@ -155,7 +157,7 @@ hr {
 }
 
 .submit input {
-    width: 97%;
+    width: 100%;
 
     border: 2px solid #463F3A;
     background-color: #463F3A;
