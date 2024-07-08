@@ -1,2 +1,2 @@
-# log-in-page
-simple log in page using html and css
+# sign-up-page
+simple sign up page using html and css
