@@ -1,5 +1,9 @@
 # sign-up-page
 sign up page using html and css.
-This project features a user-friendly sign up form created using HTML and CSS. The form allows users to sign up using their email and password, with additional options for signing up via Google and Facebook.
+
+This project features a user-friendly sign up form created using HTML and CSS.
+ The form allows users to sign up using their email and password, with additional options for signing up via Google and Facebook.
+
 The form is designed to be responsive, ensuring a seamless user experience across various devices.
+
 This sign up form is a foundational element for any web application, offering a clean and efficient way for users to create an account.
