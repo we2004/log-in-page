@@ -89,6 +89,13 @@ body {
 
 }
 
+.google-button:hover,
+.facebook-button:hover {
+    background-color: #463F3A;
+    color: #F4F3EE;
+    transition: all 0.5s;
+
+}
 
 hr {
     width: 80%;
