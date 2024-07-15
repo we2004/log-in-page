@@ -47,6 +47,7 @@ body {
     font-weight: bold;
     color: #E0AFA0;
     transition: all 0.5s;
+
 }
 
 .second-para a:hover,
@@ -88,13 +89,6 @@ body {
 
 }
 
-.google-button:hover,
-.facebook-button:hover {
-    background-color: #463F3A;
-    color: #F4F3EE;
-    transition: all 0.5s;
-
-}
 
 hr {
     width: 80%;
@@ -132,10 +126,7 @@ hr {
     transition: all 0.15s;
 }
 
-.input-div input:active {
-    border: 3px solid #463F3A;
 
-}
 
 .email {
     margin-bottom: 15px;
@@ -144,6 +135,7 @@ hr {
 .agree-label {
     font-size: 11px;
     color: #BCB8B1;
+
 
 }
 
@@ -180,8 +172,10 @@ hr {
 
 }
 
+
 @media(max-width: 529px) {
     .main {
         border: none;
     }
+
 }
